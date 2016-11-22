@@ -12,8 +12,8 @@ import path_helpers as ph
 # create a version sting based on the git revision/branch
 version = str(Version.from_git_repository())
 
-package_name = 'base_node_plugin_template'
-plugin_name = 'wheelerlab.base_node_plugin_template'
+package_name = 'base_node_plugin'
+plugin_name = 'wheelerlab.base_node_plugin'
 
 package_dir = ph.path(__file__).realpath().parent
 
